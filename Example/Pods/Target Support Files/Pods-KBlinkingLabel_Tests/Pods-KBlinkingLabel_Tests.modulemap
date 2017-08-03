@@ -1,0 +1,6 @@
+framework module Pods_KBlinkingLabel_Tests {
+  umbrella header "Pods-KBlinkingLabel_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

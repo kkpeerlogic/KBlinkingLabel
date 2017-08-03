@@ -1,0 +1,6 @@
+framework module KBlinkingLabel {
+  umbrella header "KBlinkingLabel-umbrella.h"
+
+  export *
+  module * { export * }
+}
