@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'KBlinkingLabel_Example' do
+  pod 'KBlinkingLabel', :path => '../'
+
+  target 'KBlinkingLabel_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
