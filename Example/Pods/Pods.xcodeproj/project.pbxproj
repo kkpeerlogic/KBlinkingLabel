@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0156F3F949A60C7DFA8908341BFC24EB /* KBlinkingLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C8AE45995E37D9084910C04BE80328B0 /* KBlinkingLabel-dummy.m */; };
 		20185B8E3CF3E0D7D79DEBC08B47E2F6 /* Pods-KBlinkingLabel_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 68DDE0568B7FC83A44E05A8330B2A0FF /* Pods-KBlinkingLabel_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		24CB7FDEBC74B7C968745FD654D69023 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439703E7524282EFEC6279A370E4CD27 /* ReplaceMe.swift */; };
-		3F95028D04C5A71E32E2F558C03E7343 /* KBlinkingLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C8AE45995E37D9084910C04BE80328B0 /* KBlinkingLabel-dummy.m */; };
 		4B5F720DF1A4BA3BE7EAFCD9871EFDC9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		4F9DA3CB6BAED94C9476548F445712A1 /* Pods-KBlinkingLabel_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C1F099203DA3B39713CF0716042DB1D3 /* Pods-KBlinkingLabel_Tests-dummy.m */; };
 		519C4A3BED4648A5A278B93E1930C48F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		7BEB4D1C37B993FB9A2D1A1D16B5191C /* Pods-KBlinkingLabel_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B0A39211396B8A6203BAE390DC734C02 /* Pods-KBlinkingLabel_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		93D6EA7055CF1D43DFCEA17F5A177C6C /* KBlinkingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271B4AEBFB3741B8265FC3519A5DE0FB /* KBlinkingLabel.swift */; };
 		93EBB4D17CCBF9C9C2A39572E0030B69 /* KBlinkingLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 545B41BA10AD7D98D76463E2B6908A96 /* KBlinkingLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A4F4050F155B01A82F6044755A651510 /* Pods-KBlinkingLabel_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 86D834E863DD09EE988AC9F2D1B0EAB6 /* Pods-KBlinkingLabel_Example-dummy.m */; };
 		DFB3EB998BEC6BC07A7F4391EA9431BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
@@ -33,9 +33,9 @@
 		02995A58F88A862BC3906C2F5AE022B6 /* KBlinkingLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KBlinkingLabel-prefix.pch"; sourceTree = "<group>"; };
 		117D2EAE6BDD183E5C2FDA8E509FB73F /* Pods-KBlinkingLabel_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KBlinkingLabel_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		1BD6A9400F32247E21ACDFB8AB1A31EB /* Pods-KBlinkingLabel_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KBlinkingLabel_Example.release.xcconfig"; sourceTree = "<group>"; };
+		271B4AEBFB3741B8265FC3519A5DE0FB /* KBlinkingLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KBlinkingLabel.swift; sourceTree = "<group>"; };
 		2B24E154ADB39FBFC79265F0DAFBAE84 /* Pods-KBlinkingLabel_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KBlinkingLabel_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4034CCF611C7CC2C34D1045D15212725 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		439703E7524282EFEC6279A370E4CD27 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
 		545B41BA10AD7D98D76463E2B6908A96 /* KBlinkingLabel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KBlinkingLabel-umbrella.h"; sourceTree = "<group>"; };
 		55A2F753C870F19CF90D49DE7AA7D5B8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -102,15 +102,6 @@
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		15E5AF58C6744EB6D6E53119843BC3D9 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				439703E7524282EFEC6279A370E4CD27 /* ReplaceMe.swift */,
-			);
-			name = Classes;
-			path = Classes;
-			sourceTree = "<group>";
-		};
 		400B67FC3FD74681A5A4C2397C6200D3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -133,7 +124,7 @@
 		636310CFB2E853BDEA8F9AD827974A8B /* KBlinkingLabel */ = {
 			isa = PBXGroup;
 			children = (
-				15E5AF58C6744EB6D6E53119843BC3D9 /* Classes */,
+				F0797212551858FCF81F9F32A5282299 /* Classes */,
 			);
 			name = KBlinkingLabel;
 			path = KBlinkingLabel;
@@ -208,6 +199,15 @@
 			);
 			name = "Pods-KBlinkingLabel_Tests";
 			path = "Target Support Files/Pods-KBlinkingLabel_Tests";
+			sourceTree = "<group>";
+		};
+		F0797212551858FCF81F9F32A5282299 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				271B4AEBFB3741B8265FC3519A5DE0FB /* KBlinkingLabel.swift */,
+			);
+			name = Classes;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		FC96A1523A36801ED34AAFEF4658909C /* Support Files */ = {
@@ -293,7 +293,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 46B3787965C6E5AACEBFD0BC3FF6D6C0 /* Build configuration list for PBXNativeTarget "KBlinkingLabel" */;
 			buildPhases = (
-				B17485A4AD9405D366407FE84BC530B4 /* Sources */,
+				745902F588AAA283842C03BCE87B2531 /* Sources */,
 				44C78A908312D0EA2B871A25EFFBE4C0 /* Frameworks */,
 				28DF24EC07A9A431AAE96E7D287565D6 /* Headers */,
 			);
@@ -343,20 +343,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		745902F588AAA283842C03BCE87B2531 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0156F3F949A60C7DFA8908341BFC24EB /* KBlinkingLabel-dummy.m in Sources */,
+				93D6EA7055CF1D43DFCEA17F5A177C6C /* KBlinkingLabel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A1BDC47E424A5443506F835A97B51619 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				4F9DA3CB6BAED94C9476548F445712A1 /* Pods-KBlinkingLabel_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B17485A4AD9405D366407FE84BC530B4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3F95028D04C5A71E32E2F558C03E7343 /* KBlinkingLabel-dummy.m in Sources */,
-				24CB7FDEBC74B7C968745FD654D69023 /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
